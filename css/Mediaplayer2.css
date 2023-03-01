@@ -1,0 +1,49 @@
+body {
+	text-align: center;
+} 
+
+header, footer, nav, section, hgroup, article, aside {
+	display: block;
+} 
+
+#skin {
+	width: 670px;
+	margin: 30px auto;
+	Padding: 40px;
+	background: violet;
+	border: 4px solid black;
+	border-radius: 10px;
+} 
+
+nav {
+	margin: 5px 0px;
+} 
+
+#button {
+	padding: 5px;
+	width: 60px;
+	height: 22px;
+	margin: 5px;
+} 
+
+#buttons {
+	display: inline-block;
+	margin: 10px 0px 0px 14.5px;
+	float: left;
+}
+
+#progressContainer {
+	position: relative;
+	margin: 0px 0px 0px 15px;
+	width: 639px;
+	height: 20px;
+	border: .5px solid black;
+	background: gray;
+}
+ 
+#progressBar {
+	position: absolute;
+	width: 0px;
+	height: 20px;
+	background: red;
+} 

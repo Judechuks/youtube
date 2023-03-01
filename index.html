@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="JudeChuks, 22/10/2022">
+    <meta name="revised" content="JudeChuks, 27/10/2022">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
+    <link rel="stylesheet" href="./css/video.css">
+    <!-- <link rel="stylesheet" href="../assets/fontawesome-free-6.1.1-web/css/all.min.css"> -->
+</head>
+<body>
+  <!-- Header Section -->
+  <!-- left section -->
+  <header class="header">
+    <section class="left-section">
+      <img class="hamburger-menu" src="./icons/hamburger-menu.svg">
+      <!-- youtube logo -->
+    <img src="./icons/youtube-logo.svg" alt="youtube logo" class="youtube-logo">
+    </section>
+
+    <!-- middle section -->
+    <section class="middle-section">
+      <!-- Search Button -->
+        <input type="text" class="search-bar" placeholder="Search">
+        <button class="search-btn">
+          <img src="./icons/search.svg" alt="search icon" class="search-icon">
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- microphone icon -->
+         <button class="microphone-btn">
+           <img src="./icons/voice-search-icon.svg" alt="microphone icon" class="microphone-icon">
+           <div class="tooltip">Search with your voice</div>
+         </button>
+    </section>
+
+    <!-- right section -->
+    <section class="right-section">
+     <div class="upload-icon-container">
+      <img class="upload-icon" src="./icons/upload.svg" alt="upload icon">
+      <div class="tooltip">Create</div>
+     </div>
+     <div class="apps-icon-container">
+      <img class="apps-icon" src="./icons/youtube-apps.svg" alt="apps icon">
+      <div class="tooltip">Apps</div>
+      </div>
+      <div class="note-icon-container">
+        <img class="note-icon" src="./icons/notifications.svg" alt="notification icon">
+        <div class="note-count">3</div>
+        <div class="tooltip">Notifications</div>
+      </div>
+      <div class="profile-icon-container">
+        <img class="profile-icon" src="./images/profile/account.jpg" alt="account profile" >
+        <div class="tooltip">Account</div>
+      </div>
+    </section>
+  </header>
+
+    <!-- Side Menu -->
+    <nav class="sidebar">
+      <div class="sidebar-link"><img src="./icons/home.svg"><div>Home</div></div>
+      <div class="sidebar-link"><img src="./icons/explore.svg"><div>Explore</div></div>
+      <div class="sidebar-link"><img src="./icons/subscriptions.svg"><div>Subscriptions</div></div>
+      <div class="sidebar-link"><img src="./icons/originals.svg"><div>Originals</div></div>
+      <div class="sidebar-link"><img src="./icons/youtube-music.svg"><div>YouTube Music</div></div>
+      <div class="sidebar-link"><img src="./icons/library.svg"><div>Library</div></div>
+    </nav>
+    <main>
+    <!-- Video Section -->
+    <section class="video-grid">
+    <!-- channel 1 -->
+      <article class="video-channel">
+        <div class="thumbnail">
+          <a href="./Mediaplayer2.html" target="_blank">
+          <img src="./images/thumbnails/thumbnail-1.webp" alt="thumbnail" class="thumbnail-img">
+          </a>
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile">
+          <a href="./circular progress bar.htm" target="_blank">
+            <img src="./images/profile/channel-1.jpg" alt="profile picture" class="profile-pic">
+          </a>
+          <div class="channel-tooltip">
+                <img class="profile-pic pic-left" src="./images/profile/channel-1.jpg">
+                <div class="profile-left">
+                  <p class="author">Marques Brownlee</p>
+                  <p class="subscribers">15M subscribers</p>
+                </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <!-- Video Title -->
+            <p class="video-title"><a href="./Mediaplayer2.html" target="_blank">Talking Tech and AI with Google CEO Sunder Pichai!</a></p>
+            <!-- Video Author -->
+            <p class="video-author">Marques Brownlee &checkmark;</p>
+            <!-- Video Upload Date -->
+            <p class="video-stats">3.4M views &middot; 6 months ago</p>
+          </div>
+        </div>
+      </article>
+    <!-- channel 2 -->
+      <article class="video-channel">
+        <div class="thumbnail">
+          <a href="./Mediaplayer2.html" target="_blank">
+          <img src="./images/thumbnails/thumbnail-2.webp" alt="thumbnail" class="thumbnail-img">
+          </a>
+          <div class="video-time">8:22</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile">
+          <a href="./circular progress bar.htm" target="_blank">
+            <img src="./images/profile/channel-2.jpg" alt="profile picture" class="profile-pic">
+          </a>
+          <div class="channel-tooltip">
+                <img class="profile-pic pic-left" src="./images/profile/channel-2.jpg">
+                <div class="profile-left">
+                  <p class="author">Markpiler</p>
+                  <p class="subscribers">30M subscribers</p>
+                </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <!-- Video Title -->
+            <p class="video-title"><a href="./Mediaplayer2.html" target="_blank">Try Not To Laugh Challenge #9</a></p>
+            <!-- Video Author -->
+            <p class="video-author">Markpiler</p>
+            <!-- Video Upload Date -->
+            <p class="video-stats">19M views &middot; 4 years ago</p>
+          </div>
+        </div>
+      </article>
+    <!-- channel 3 -->
+      <article class="video-channel">
+        <div class="thumbnail">
+          <a href="./Mediaplayer2.html" target="_blank">
+          <img src="./images/thumbnails/thumbnail-3.webp" alt="thumbnail" class="thumbnail-img">
+          </a>
+          <div class="video-time">9:13</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile">
+          <a href="./circular progress bar.htm" target="_blank">
+            <img src="./images/profile/channel-3.jpg" alt="profile picture" class="profile-pic">
+          </a>
+          <div class="channel-tooltip">
+                <img class="profile-pic pic-left" src="./images/profile/channel-3.jpg">
+                <div class="profile-left">
+                  <p class="author">SSSniperWolf</p>
+                  <p class="subscribers">21M subscribers</p>
+                </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <!-- Video Title -->
+            <p class="video-title"><a href="./Mediaplayer2.html" target="_blank">Crazy Tik Toks Taken Moments Before DISASTER</a></p>
+            <!-- Video Author -->
+            <p class="video-author">SSSniperWolf</p>
+            <!-- Video Upload Date -->
+            <p class="video-stats">12M views &middot; 1 year ago</p>
+          </div>
+        </div>
+      </article>
+    <!-- channel 4 -->
+      <article class="video-channel">
+        <div class="thumbnail">
+          <a href="./Mediaplayer2.html" target="_blank">
+          <img src="./images/thumbnails/thumbnail-4.webp" alt="thumbnail" class="thumbnail-img">
+          </a>
+          <div class="video-time">22:09</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile">
+          <a href="./circular progress bar.htm" target="_blank">
+            <img src="./images/profile/channel-4.jpg" alt="profile picture" class="profile-pic">
+          </a>
+          <div class="channel-tooltip">
+                <img class="profile-pic pic-left" src="./images/profile/channel-4.jpg">
+                <div class="profile-left">
+                  <p class="author">Veritasium</p>
+                  <p class="subscribers">22M subscribers</p>
+                </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <!-- Video Title -->
+            <p class="video-title"><a href="./Mediaplayer2.html" target="_blank">The Simplest Math Problem No One Can Solve &dash; Collatz Conjecture</a></p>
+            <!-- Video Author -->
+            <p class="video-author">Veritasium</p>
+            <!-- Video Upload Date -->
+            <p class="video-stats">18M views &middot; 4 months ago</p>
+          </div>
+        </div>
+      </article>
+    <!-- channel 5 -->
+      <article class="video-channel">
+        <div class="thumbnail">
+          <a href="./Mediaplayer2.html" target="_blank">
+          <img src="./images/thumbnails/thumbnail-5.webp" alt="thumbnail" class="thumbnail-img">
+          </a>
+          <div class="video-time">11:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile">
+          <a href="./circular progress bar.htm" target="_blank">
+            <img src="./images/profile/channel-5.jpg" alt="profile picture" class="profile-pic">
+          </a>
+          <div class="channel-tooltip">
+                <img class="profile-pic pic-left" src="./images/profile/channel-5.jpg">
+                <div class="profile-left">
+                  <p class="author">CS Dojo</p>
+                  <p class="subscribers">1M subscribers</p>
+                </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <!-- Video Title -->
+            <p class="video-title"><a href="./Mediaplayer2.html" target="_blank">Kadane's Algorithm to Maximum Sum Subarray Problem</a></p>
+            <!-- Video Author -->
+            <p class="video-author">CS Dojo</p>
+            <!-- Video Upload Date -->
+            <p class="video-stats">519K views &middot; 5 years ago</p>
+          </div>
+        </div>
+      </article>
+    <!-- channel 6 -->
+      <article class="video-channel">
+        <div class="thumbnail">
+          <a href="./Mediaplayer2.html" target="_blank">
+          <img src="./images/thumbnails/thumbnail-6.webp" alt="thumbnail" class="thumbnail-img">
+          </a>
+          <div class="video-time">19:59</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile">
+          <a href="./circular progress bar.htm" target="_blank">
+            <img src="./images/profile/channel-6.jpg" alt="profile picture" class="profile-pic">
+          </a>
+          <div class="channel-tooltip">
+                <img class="profile-pic pic-left" src="./images/profile/channel-6.jpg">
+                <div class="profile-left">
+                  <p class="author">MrBeast</p>
+                  <p class="subscribers">200M subscribers</p>
+                </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <!-- Video Title -->
+            <p class="video-title"><a href="./Mediaplayer2.html" target="_blank">Anything You Can Fit In The Circle I'll Pay For</a></p>
+            <!-- Video Author -->
+            <p class="video-author">MrBeast</p>
+            <!-- Video Upload Date -->
+            <p class="video-stats">141M views &middot; 1 year ago</p>
+          </div>
+        </div>
+      </article>
+    <!-- channel 7 -->
+      <article class="video-channel">
+        <div class="thumbnail">
+          <a href="./Mediaplayer2.html" target="_blank">
+          <img src="./images/thumbnails/thumbnail-7.webp" alt="thumbnail" class="thumbnail-img">
+          </a>
+          <div class="video-time">10:13</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile">
+          <a href="./circular progress bar.htm" target="_blank">
+            <img src="./images/profile/channel-7.jpg" alt="profile picture" class="profile-pic">
+          </a>
+          <div class="channel-tooltip">
+                <img class="profile-pic pic-left" src="./images/profile/channel-7.jpg">
+                <div class="profile-left">
+                  <p class="author">RealLifeLore</p>
+                  <p class="subscribers">12M subscribers</p>
+                </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <!-- Video Title -->
+            <p class="video-title"><a href="./Mediaplayer2.html" target="_blank">Why Planes Don't Fly Over Tibet</a></p>
+            <!-- Video Author -->
+            <p class="video-author">RealLifeLore</p>
+            <!-- Video Upload Date -->
+            <p class="video-stats">6.6M views &middot; 1 year ago</p>
+          </div>
+        </div>
+      </article>
+    <!-- channel 8 -->
+      <article class="video-channel">
+        <div class="thumbnail">
+          <a href="./Mediaplayer2.html" target="_blank">
+          <img src="./images/thumbnails/thumbnail-8.webp" alt="thumbnail" class="thumbnail-img">
+          </a>
+          <div class="video-time">7:12</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile">
+          <a href="./circular progress bar.htm" target="_blank">
+            <img src="./images/profile/channel-8.jpeg" alt="profile picture" class="profile-pic">
+          </a>
+          <div class="channel-tooltip">
+                <img class="profile-pic pic-left" src="./images/profile/channel-8.jpeg">
+                <div class="profile-left">
+                  <p class="author">Tech Vision</p>
+                  <p class="subscribers">10M subscribers</p>
+                </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <!-- Video Title -->
+            <p class="video-title"><a href="./Mediaplayer2.html" target="_blank">Inside The World's Biggest Passenger Plane</a></p>
+            <!-- Video Author -->
+            <p class="video-author">Tech Vision</p>
+            <!-- Video Upload Date -->
+            <p class="video-stats">3.7M views &middot; 10 months ago</p>
+          </div>
+        </div>
+      </article>
+    <!-- channel 9 -->
+      <article class="video-channel">
+        <div class="thumbnail">
+          <a href="./Mediaplayer2.html" target="_blank">
+          <img src="./images/thumbnails/thumbnail-9.webp" alt="thumbnail" class="thumbnail-img">
+          </a>
+          <div class="video-time">13:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile">
+          <a href="./circular progress bar.htm" target="_blank">
+            <img src="./images/profile/channel-9.jpg" alt="profile picture" class="profile-pic">
+          </a>
+          <div class="channel-tooltip">
+                <img class="profile-pic pic-left" src="./images/profile/channel-9.jpg">
+                <div class="profile-left">
+                  <p class="author">ThenX</p>
+                  <p class="subscribers">32M subscribers</p>
+                </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <!-- Video Title -->
+            <p class="video-title"><a href="./Mediaplayer2.html" target="_blank">The SECRET to Super Human STRENGTH</a></p>
+            <!-- Video Author -->
+            <p class="video-author">ThenX</p>
+            <!-- Video Upload Date -->
+            <p class="video-stats">20M views &middot; 3 years ago</p>
+          </div>
+        </div>
+      </article>
+    <!-- channel 10 -->
+      <article class="video-channel">
+        <div class="thumbnail">
+          <a href="./Mediaplayer2.html" target="_blank">
+          <img src="./images/thumbnails/thumbnail-10.webp" alt="thumbnail" class="thumbnail-img">
+          </a>
+          <div class="video-time">7:53</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile">
+          <a href="./circular progress bar.htm" target="_blank">
+            <img src="./images/profile/channel-10.jpg" alt="profile picture" class="profile-pic">
+          </a>
+          <div class="channel-tooltip">
+                <img class="profile-pic pic-left" src="./images/profile/channel-10.jpg">
+                <div class="profile-left">
+                  <p class="author">Business Insider</p>
+                  <p class="subscribers">24M subscribers</p>
+                </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <!-- Video Title -->
+            <p class="video-title"><a href="./Mediaplayer2.html" target="_blank">How The World's Largest Cruise Ship Makes 30,000 Meals Every Day</a></p>
+            <!-- Video Author -->
+            <p class="video-author">Business Insider</p>
+            <!-- Video Upload Date -->
+            <p class="video-stats">14M views &middot; 1 year ago</p>
+          </div>
+        </div>
+      </article>
+    <!-- channel 11 -->
+      <article class="video-channel">
+        <div class="thumbnail">
+          <a href="./Mediaplayer2.html" target="_blank">
+          <img src="./images/thumbnails/thumbnail-11.webp" alt="thumbnail" class="thumbnail-img">
+          </a>
+          <div class="video-time">4:10</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile">
+          <a href="./circular progress bar.htm" target="_blank">
+            <img src="./images/profile/channel-11.jpg" alt="profile picture" class="profile-pic">
+          </a>
+          <div class="channel-tooltip">
+                <img class="profile-pic pic-left" src="./images/profile/channel-11.jpg">
+                <div class="profile-left">
+                  <p class="author">Destination Tips</p>
+                  <p class="subscribers">8M subscribers</p>
+                </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <!-- Video Title -->
+            <p class="video-title"><a href="./Mediaplayer2.html" target="_blank">Dubai's Crazy Underwater Train and Other Things #Only in Dubai</a></p>
+            <!-- Video Author -->
+            <p class="video-author">Destination Tips</p>
+            <!-- Video Upload Date -->
+            <p class="video-stats">3M views &middot; 1 year ago</p>
+          </div>
+        </div>
+      </article>
+    <!-- channel 12 -->
+      <article class="video-channel">
+        <div class="thumbnail">
+          <a href="./Mediaplayer2.html" target="_blank">
+          <img src="./images/thumbnails/thumbnail-12.webp" alt="thumbnail" class="thumbnail-img">
+          </a>
+          <div class="video-time">4:51</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile">
+          <a href="./circular progress bar.htm" target="_blank">
+            <img src="./images/profile/channel-12.jpg" alt="profile picture" class="profile-pic">
+          </a>
+            <div class="channel-tooltip">
+                <img class="profile-pic pic-left" src="./images/profile/channel-12.jpg">
+                <div class="profile-left">
+                  <p class="author">TED&dash;Ed</p>
+                  <p class="subscribers">14M subscribers</p>
+                </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <!-- Video Title -->
+            <p class="video-title"><a href="./Mediaplayer2.html" target="_blank">What would happen if you didn't drink water? &dash; Mia Nacamulli</a></p>
+            <!-- Video Author -->
+            <p class="video-author">TED&dash;Ed</p>
+            <!-- Video Upload Date -->
+            <p class="video-stats">12M views &middot; 5 years ago</p>
+          </div>
+        </div>
+      </article>
+      
+    </section>
+  </main>
+    
+</body>
+</html>

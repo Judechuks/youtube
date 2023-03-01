@@ -1,0 +1,145 @@
+
+/*////////// Video Section //////////*/
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5vh 2vw;
+}
+/*//////// Video Text Styles ////////*/
+.video-title{
+  font-size: 14px; 
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+.video-author{
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 4px;
+}
+.video-stats{
+  font-size: 0.875rem; /*14px*/
+  color: rgb(96, 96, 96);
+  margin-bottom: 8px;  
+}
+.video-description{
+  font-size: 0.875rem; /*14px*/
+  color: rgb(96, 96, 96);
+  line-height: 1.4;
+}
+
+/* //////// Channel Section //////// */
+.video-channel{
+  width: 100%;
+  margin-top: 18px;
+}
+.thumbnail{
+  margin-bottom: 8px;
+  position: relative;
+}
+.thumbnail-img{
+  width: 100%;
+}
+.profile-pic{
+  width: 36px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.video-info-grid{
+  display: grid;
+  grid-template-columns: 36px auto;
+  column-gap: 0.6vw;
+}
+.video-time{
+  background-color: black;
+  color: white;
+  padding: 4px;
+  position: absolute;
+  right: 4px;
+  bottom: 8px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 12px;
+}
+.profile{
+  position: relative;
+  height: 35px;
+}
+.profile:hover .channel-tooltip{
+  opacity: 1;
+}
+.channel-tooltip{
+  position: absolute;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgb(96, 96, 96);
+  padding: 5px 25px 5px 10px;
+  opacity: 0;
+  transition: all 0.8s;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  pointer-events: none;
+}
+
+.pic-left{
+  width: 46px;
+}
+.profile-left .author{
+  font-weight: 800;
+  font-size: 16px;
+  white-space: nowrap;
+}
+.profile-left .subscribers{
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  white-space: nowrap;
+}
+
+/*//////// Media Queries ////////*/
+@media screen and (max-width: 1100px) {
+    .pic-left{
+      width: 36px;
+    }
+    .profile-left .author{
+      font-weight: 800;
+      font-size: 14px;
+      white-space: nowrap;
+    }
+    .profile-left .subscribers{
+      font-size: 12px;
+      color: rgb(96, 96, 96);
+      white-space: nowrap;
+    }
+    .channel-tooltip {
+      padding: 5px 18px 5px 8px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .video-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+    .video-grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .video-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+  .video-grid {
+    grid-template-columns: 180px 180px;
+  }
+  .video-info-grid{
+    column-gap: 10px;
+  }
+}
