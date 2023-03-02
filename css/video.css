@@ -137,7 +137,7 @@
 
 @media screen and (max-width: 400px) {
   .video-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 150px 150px;
   }
   .video-info-grid{
     column-gap: 10px;
