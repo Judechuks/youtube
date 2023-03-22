@@ -3,6 +3,9 @@ This project is a clone of youtube.
 It was deveoped by **JudeChuks, 22/10/2022** 
 to **27/10/2022** when I was still playing around **HTML** and **CSS**
 
+## LINK
+**[Youtube clone](https://judechuks.github.io/youtube/) "Youtube clone as at 2021"**
+
 ## TECHNOLOGIES / LANGUAGES
 This project was developed using 
 ### 1. HTML: 
